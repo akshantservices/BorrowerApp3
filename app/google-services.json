@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1096229111066",
+    "project_id": "akshant-104ff",
+    "storage_bucket": "akshant-104ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096229111066:android:65068cb51c2525adec18a3",
+        "android_client_info": {
+          "package_name": "com.example.akshant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096229111066-gtvmpe2tuse0ehic0890malackj2it51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akshant",
+            "certificate_hash": "ee1579aae11c84746472370820042fdd66dc9778"
+          }
+        },
+        {
+          "client_id": "1096229111066-mfeac78qrrsb2blcstsi6gcip4vac3tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByyt8EtS3wRnFzB2AHQCwuBQWVO6rmYlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096229111066-mfeac78qrrsb2blcstsi6gcip4vac3tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

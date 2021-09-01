@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainHeading"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:inputType="none"
+        android:text="Agriculture Intelligence"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/agricultureIntelligenceNext1"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Next"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="62dp"
+        android:layout_height="52dp"
+        android:layout_alignBottom="@id/mainHeading"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_alignBottom="@id/mainHeading"
+        android:layout_marginLeft="10dp"
+        android:layout_width="72dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainHeading"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginRight="20dp"
+        android:clickable="false"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Estimated Yield \t\t\t\t\t\t\t\t\t 20 Quintal
+        \n\nEstimated MSP \t\t\t\t\t\t\t\t\t 3950 Rs/Q
+        \n\nApprox Crop Sell \t\t\t\t\t\t\t\t Rs. 79,000
+        \n\nAvg. Investment \t\t\t\t\t\t\t\t Rs. 25,000
+        \n\nApprox Profit \t\t\t\t\t\t\t\t\t\t\t Rs. 54,000
+        \n\nHarvest Date \t\t\t\t\t\t\t\t\t\t\t 01 Nov 2021"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

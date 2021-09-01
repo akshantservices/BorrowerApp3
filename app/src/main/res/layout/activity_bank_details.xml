@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainHeading"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:inputType="none"
+        android:clickable="false"
+        android:text="Bank Details"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="62dp"
+        android:layout_height="52dp"
+        android:layout_alignBottom="@id/mainHeading"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_alignBottom="@id/mainHeading"
+        android:layout_marginLeft="10dp"
+        android:layout_width="72dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/familyMembers"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Family Members"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:clickable="false"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/familyMembersInput"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/white"
+        android:text="Family Members Input"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/dependantDetails"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/familyMembers"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Dependent Family Members"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:clickable="false"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/dependantDetailsInput"
+        android:layout_width="330dp"
+        android:layout_height="130dp"
+        android:layout_alignTop="@id/dependantDetails"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Dependent Family Members"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:inputType="text"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/loanRequirement"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/dependantDetails"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Loan Requirement"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:clickable="false"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/loanAmount"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/loanRequirement"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Loan Amount"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:clickable="false"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/loanAmountInput"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@id/loanRequirement"
+        android:background="@color/white"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:text="Loan Amount"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:clickable="false"
+        android:inputType="none" />
+
+    <TextView
+        android:id="@+id/loanTenure"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/loanAmount"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Loan Tenure"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/loanTenureInput"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:layout_alignTop="@id/loanAmount"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:text="Loan Tenure"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bankDetailsNext"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/loanTenure"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Next"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+</RelativeLayout>

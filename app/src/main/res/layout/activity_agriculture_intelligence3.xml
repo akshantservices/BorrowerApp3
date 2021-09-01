@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainHeading"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:inputType="none"
+        android:text="Agriculture Intelligence"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/seedInformation"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="525dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Seed Information"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+    <Button
+        android:id="@+id/fieldPreparation"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="450dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Field Preparation"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+    <Button
+        android:id="@+id/irrigationInformation"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="375dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Irrigation Information"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+    <Button
+        android:id="@+id/fertilizers"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Fertilizers"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+    <Button
+        android:id="@+id/cropProtection"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="225dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Crop Protection"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+    <Button
+        android:id="@+id/harvestInformation"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Harvest Information"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+    <Button
+        android:id="@+id/agricultureIntelligenceNext3"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Next"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="62dp"
+        android:layout_height="52dp"
+        android:layout_alignBottom="@id/mainHeading"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_alignBottom="@id/mainHeading"
+        android:layout_marginLeft="10dp"
+        android:layout_width="72dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityHindi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/mainHeading"
+            android:layout_width="168dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:fontFamily="@font/kruti"
+            android:inputType="textPersonName"
+            android:text="tehu lwph"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addMorePropertyBtn"
+            android:layout_width="383dp"
+            android:layout_height="56dp"
+            android:layout_above="@+id/checkBanksForLoanBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="@font/kruti"
+            android:text="tehu tkudkjh tksM+sa"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:backgroundTint="#5BCFE3" />
+
+        <Button
+            android:id="@+id/checkBanksForLoanBtn"
+            android:layout_width="383dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_corners"
+            android:fontFamily="@font/kruti"
+            android:text="_.k cSad dh tkudkjh"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            app:backgroundTint="#5BCFE3" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="62dp"
+            android:layout_height="52dp"
+            android:layout_alignBottom="@id/mainHeading"
+
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="72dp"
+            android:layout_height="75dp"
+            android:layout_alignBottom="@id/mainHeading"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/logo" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

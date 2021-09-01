@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainHeading"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:inputType="none"
+        android:text="Seed"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:inputType="none"
+        android:text="Choosen Farm is Irrigated"
+        android:textAlignment="center"
+        android:textColor="#21C9F3"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:background="#686666"
+        android:clickable="false"
+        android:ems="10"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:inputType="none"
+        android:text="Blanket Solution:
+        \n\n20 Kgs N;
+        \n80 Kgs K, Phosphorous Pentoxide
+        \n40 Kgs K, Potassium Oxide
+        \n40 Kgs S as Gypsum (200 Kgs)
+        \n25 Kgs Kgs Zinc Sulphate"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fertilizersNext"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Back"
+        android:textAllCaps="false"
+        app:backgroundTint="#5BCFE3" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="62dp"
+        android:layout_height="52dp"
+        android:layout_alignBottom="@id/mainHeading"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_alignBottom="@id/mainHeading"
+        android:layout_marginLeft="10dp"
+        android:layout_width="72dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>

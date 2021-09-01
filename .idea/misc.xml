@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dilip/OneDrive/Desktop/Siddharth/AndroidStudioProjects/Akshant2/app/src/main/res/layout/activity_login_english.xml" value="0.10364583333333334" />
+        <entry key="app/src/main/res/layout/activity_agriculture_intelligence.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout/activity_agriculture_intelligence2.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_agriculture_intelligence3.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_choose_crop.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout/activity_choose_property_type.xml" value="0.10106382978723404" />
+        <entry key="app/src/main/res/layout/activity_crop_protection.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_fertilizers.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_field_preparation.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_irrigation_info.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_list_view.xml" value="0.2078125" />
+        <entry key="app/src/main/res/layout/activity_locate_property.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login_english.xml" value="0.11322188449848024" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.10106382978723404" />
+        <entry key="app/src/main/res/layout/activity_maps2.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout/activity_owner_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_property_value.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_seed.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_track_crop_growth.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_map.xml" value="0.2265625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

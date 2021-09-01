@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/submitOtp"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:text="Submit OTP"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        app:backgroundTint="#5BCFE3" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="209dp"
+        android:layout_height="200dp"
+        android:layout_alignBottom="@id/mainHeading"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/otpEnglish"
+        android:layout_width="383dp"
+        android:layout_height="56dp"
+        android:layout_above="@+id/submitOtp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/roundercorner2"
+        android:ems="10"
+        android:hint="Enter OTP"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+</RelativeLayout>
